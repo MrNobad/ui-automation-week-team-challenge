@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "cypress": "^6.5.0",
+    "mochawesome": "^6.2.2",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.0",
     "react-dom": "^17.0.1",
@@ -18,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "uitest:run": "cypress run -b chrome --reporter mochawesome"
   },
   "eslintConfig": {
     "extends": [

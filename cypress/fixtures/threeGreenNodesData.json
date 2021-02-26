@@ -1,0 +1,17 @@
+{
+    "transactions": 87654321,
+    "nodes": [
+      {
+        "name": "Node 1",
+        "level": "ok"
+      },
+      {
+        "name": "Node 2",
+        "level": "ok"
+      },
+      {
+        "name": "Node 3",
+        "level": "ok"
+      }
+    ]
+  }

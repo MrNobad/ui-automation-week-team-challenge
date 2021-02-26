@@ -1,0 +1,33 @@
+{
+    "transactions": 87654321,
+    "nodes": [
+      {
+        "name": "Node 1",
+        "level": "ok"
+      },
+      {
+        "name": "Node 2",
+        "level": "warning",
+        "error": "WARN 6616 --- [nio-8080-exec-1] o.g.jersey.internal.inject.Providers: A provider com.example.myproject.Book.RestServiceController registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime."
+      },
+      {
+        "name": "Node 3",
+        "level": "error",
+        "error": "Exception in thread 'main' java.lang.NullPointerException at com.example.myproject.Book.getTitle(Book.java:16) at com.example.myproject.Author.getBookTitles(Author.java:25)at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+      },
+      {
+        "name": "Node 4",
+        "level": "ok"
+      },
+      {
+        "name": "Node 5",
+        "level": "warning",
+        "error": "WARN 6616 --- [nio-8080-exec-1] o.g.jersey.internal.inject.Providers: A provider com.example.myproject.Book.RestServiceController registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime."
+      },
+      {
+        "name": "Node 6",
+        "level": "error",
+        "error": "Exception in thread 'main' java.lang.NullPointerException at com.example.myproject.Book.getTitle(Book.java:16) at com.example.myproject.Author.getBookTitles(Author.java:25)at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+      }
+    ]
+  }
